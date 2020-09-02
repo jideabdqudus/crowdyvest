@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Fragment>
       <Header />
-      <div className="container">
+      <div>
         <Home />
         <div
           style={{ textAlign: "center", marginTop: "50px", paddingTop: "50px" }}
