@@ -13,8 +13,8 @@
 }
 
 .boxCenter {
-  margin: 0;
-  position: absolute;
+  margin-top: 70px;
+  position: relative;
   height: 15rem;
   width: 30rem;
   top: 50%;
