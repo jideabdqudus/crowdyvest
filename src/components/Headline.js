@@ -7,7 +7,7 @@ const Headline = () => {
   return (
     <div>
       <Row>
-        <Col className="boxCenter" xs={24} sm={12} md={12} lg={12} xl={12}>
+        <Col span={24}  xs={24} sm={12} md={12} lg={12} xl={}>
           <p className="headingTitle">
             The Smarter Way to
             <div>Get your Money</div> Working
