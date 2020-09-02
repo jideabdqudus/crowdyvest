@@ -1,3 +1,11 @@
 body{
   color:#01434A;
 }
+
+a{
+  color: #54AB68;
+}
+
+a:hover{
+  color: #333
+}
