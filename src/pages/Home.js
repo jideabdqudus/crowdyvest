@@ -11,7 +11,9 @@ const Home = () => {
       <HeroTop />
       <Headline />
       <MidCard />
-      <ImpactCard/>
+      <div className="region2">
+        <ImpactCard />
+      </div>
     </div>
   );
 };
