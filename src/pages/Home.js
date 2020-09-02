@@ -4,20 +4,40 @@ import HeroTop from "../components/HeroTop";
 import MidCard from "../components/MidCard";
 import Headline from "../components/Headline";
 import ImpactCard from "../components/ImpactCard";
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const Home = () => {
   return (
     <Fragment>
       <div className="container">
-        <HeroTop />
-        <Headline />
-        <MidCard />
+        <Fade top duration={3000}>
+          <HeroTop />
+          <Headline />
+        </Fade>
+        <Fade left>
+          <MidCard />
+        </Fade>
       </div>
       <div className="region2">
         <div className="container">
-          <ImpactCard />
+          <Fade bottom delay={2000}>
+            <ImpactCard />
+          </Fade>
         </div>
       </div>
+      <div>
+        <Zoom right>
+          <h1>React Reveal</h1>
+        </Zoom>
+      </div>
+      <Fade top cascade>
+  <ul className="some-class">
+    <li>First Item</li>
+    <li>Another Item</li>
+    <li>Last Item</li>
+  </ul>
+</Fade>
     </Fragment>
   );
 };
