@@ -4,8 +4,7 @@ import HeroTop from "../components/HeroTop";
 import "./pages.css";
 import Savings from "../assets/savings.svg";
 import Sponsorships from "../assets/sponsorships.svg";
-import {ArrowRightOutlined} from "@ant-design/icons"
-
+import { ArrowRightOutlined } from "@ant-design/icons";
 
 const Home = () => {
   const { Meta } = Card;
@@ -33,20 +32,22 @@ const Home = () => {
                 src={Savings}
                 alt="savings"
                 style={{
-                  width: "150px",
-                  margin: "5px",
-                  padding: "15px",
-                  paddingBottom: "0px",
-                  marginBottom: "0px",
+                  width: "170px",
+                  paddingLeft: "20px",
+                  marginTop: "20px",
                 }}
               />
             }
           >
-            <Divider />
-            <Meta description="Acheive your financial goals by saving with us daily, weekly, and monthly or lock in your funds and enjoy the most impressive rates on your savings." />
-            <p style={{ marginTop: "10px" }}>
-              Start Saving <ArrowRightOutlined/>
-            </p>
+            <Divider style={{ padding: "0px", marginTop: "0px" }} />
+            <Meta
+              style={{ padding: "0px", margin: "0px" }}
+              description="Acheive your financial goals by saving with us daily, weekly, and monthly or lock in your funds and enjoy the most impressive rates on your savings."
+            />
+            <br />
+            <a href="#!" style={{ paddingTop: "20px" }}>
+              Start Saving <ArrowRightOutlined />
+            </a>
           </Card>
         </Col>
         <Col span={6} xl={6}>

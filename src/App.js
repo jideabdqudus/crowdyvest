@@ -11,6 +11,7 @@ const App = () => {
       <Header />
       <div className="container">
         <Home/>
+        <div style={{textAlign:"center", marginTop:"50px", paddingTop:"50px"}}>Footer</div>
       </div>
     </Fragment>
   );
