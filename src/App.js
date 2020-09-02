@@ -1,11 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-function App() {
+//Ant Design Import
+import 'antd/dist/antd.css';
+import Header from './layout/Header';
+const App = () => {
   return (
-    <div className="App">
-      Jide
+    <div>
+    <Header/>
+      <h1>Hello World</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
