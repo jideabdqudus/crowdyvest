@@ -10,11 +10,13 @@ import CarouselItem from "../components/CarouselItem";
 import Testimonials from "../components/Testimonials";
 import Safety from "../components/Safety";
 import Grow from "../components/Grow";
-import Footer from "../components/Footer";
+import Footer from "../layout/Footer";
+import Header from "../layout/Header";
 
 const Home = () => {
   return (
     <Fragment>
+
       <div className="region1">
         <div className="container">
           <Fade top duration={3000}>
@@ -28,9 +30,7 @@ const Home = () => {
       </div>
       <div className="region2">
         <div className="container">
-          <Fade bottom delay={1000}>
-            <ImpactCard />
-          </Fade>
+          <ImpactCard />
         </div>
       </div>
       <div className="region3">
@@ -46,8 +46,8 @@ const Home = () => {
       </div>
       <div className="region5">
         <div className="container">
-          <Grow/>
-          <Footer/>
+          <Grow />
+          <Footer />
         </div>
       </div>
     </Fragment>
