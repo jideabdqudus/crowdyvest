@@ -7,6 +7,7 @@ import ImpactCard from "../components/ImpactCard";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import CarouselItem from "../components/CarouselItem";
+import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
@@ -30,7 +31,14 @@ const Home = () => {
       <div className="region3">
         <div className="container">
           <Fade bottom delay={2000}>
-            <CarouselItem/>
+            <CarouselItem />
+          </Fade>
+        </div>
+      </div>
+      <div className="region4">
+        <div className="container">
+          <Fade bottom delay={2000}>
+            <Testimonials/>
           </Fade>
         </div>
       </div>

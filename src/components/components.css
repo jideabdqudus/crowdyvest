@@ -51,4 +51,12 @@
   text-align: center;
   color: #54ab68;
   line-height: 60px;
+  padding-bottom: 30px;
+}
+
+.testimonials {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: #01434a;
 }
