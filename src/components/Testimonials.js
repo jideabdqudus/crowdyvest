@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-import { Card, Carousel, Avatar, Row, Col } from "antd";
+import { Card, Carousel, Avatar, Row, Col, Divider } from "antd";
 import {
   EditOutlined,
   EllipsisOutlined,
   SettingOutlined,
 } from "@ant-design/icons";
-
+import AvatarIcon from "../assets/vestavatar.png";
 const Testimonials = () => {
   const [dotPosition, setDotPostion] = useState("right");
   const { Meta } = Card;
@@ -15,47 +15,71 @@ const Testimonials = () => {
       <p className="testimonials">Testimonials</p>
       <p className="testimonialsSub">Pleasant stories from people like you</p>
       <Carousel dotPosition={dotPosition} color="green" effect="fade" autoplay>
-      
-      <Row>
-      <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-      <Card
-      style={{ width: 300 }}
-      cover={
-        <img
-          alt="example"
-          src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-        />
-      }
-      actions={[
-        <SettingOutlined key="setting" />,
-        <EditOutlined key="edit" />,
-        <EllipsisOutlined key="ellipsis" />,
-      ]}
-    >
-      <Meta
-        avatar={
-          <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-        }
-        title="Card title"
-        description="This is the description"
-      />
-    </Card>
-      </Col>
-      <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-        Col
-      </Col>
-      <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-        Col
-      </Col>
-    </Row>
         <div>
-          <h3 style={contentStyle}>2</h3>
+          <Col span={12} offset={6}>
+            <p
+              className="testimonialsItem"
+              style={{ maxHeight: "400px", paddingBottom: "20px" }}
+            >
+              I like Crowdyvest's reliability and awesome customer support. I
+              also like that Crowdyvest is keen on making remarkable impact in
+              our world.
+            </p>
+            <Divider orientation="left" plain>
+              <p className="testimonialName">Abiola Adigun</p>
+            </Divider>
+            <Row style={{ paddingBottom: "60px" }}>
+              <Col>
+                <img
+                  src={AvatarIcon}
+                  alt="Avatar Icon"
+                  className="testimonialsIcon"
+                />
+              </Col>
+            </Row>
+          </Col>
         </div>
         <div>
-          <h3 style={contentStyle}>3</h3>
+          <Col span={12} offset={6}>
+            <p className="testimonialsItem">
+              Quite impressed with the new user interface on the Crowdyvest
+              platform. All necessary updates on the progress of my sponsorship
+              are made available within just a click.
+            </p>
+            <Divider orientation="left" plain>
+              <p className="testimonialName">Abiola Adigun</p>
+            </Divider>
+            <Row>
+              <Col>
+                <img
+                  src={AvatarIcon}
+                  alt="Avatar Icon"
+                  className="testimonialsIcon"
+                />
+              </Col>
+            </Row>
+          </Col>
         </div>
         <div>
-          <h3 style={contentStyle}>4</h3>
+          <Col span={12} offset={6}>
+            <p className="testimonialsItem">
+              Quite impressed with the new user interface on the Crowdyvest
+              platform. All necessary updates on the progress of my sponsorship
+              are made available within just a click.
+            </p>
+            <Divider orientation="left" plain>
+              <p className="testimonialName">Abiola Adigun</p>
+            </Divider>
+            <Row>
+              <Col>
+                <img
+                  src={AvatarIcon}
+                  alt="Avatar Icon"
+                  className="testimonialsIcon"
+                />
+              </Col>
+            </Row>
+          </Col>
         </div>
       </Carousel>
     </div>
@@ -63,7 +87,7 @@ const Testimonials = () => {
 };
 
 const contentStyle = {
-  height: "400px",
+  height: "300px",
   color: "#333",
   lineHeight: "160px",
   textAlign: "center",

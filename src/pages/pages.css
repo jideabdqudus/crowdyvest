@@ -57,10 +57,15 @@
 }
 
 .region4{
-    background-color: antiquewhite;
+    background-color:#fafafa;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .region1{
     background-image: url("../assets/hero-bg.svg");
+}
+
+.region5{
+    background-color: #fff;
 }

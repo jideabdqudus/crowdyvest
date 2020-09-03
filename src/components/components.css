@@ -55,14 +55,62 @@
 }
 
 .testimonials {
-    font-size: 50px;
-    font-weight: bolder;
-    text-align: center;
-    color: #01434a;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #01434a;
 }
 
-.testimonialsSub{
-    font-size: 25px;
-    text-align: center;
-    color: #01434a;
+.testimonialsSub {
+  font-size: 20px;
+  text-align: center;
+  color: #01434a;
+  margin-bottom: 50px;
+}
+
+.testimonialsItem {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.testimonialsIcon {
+  float: right;
+  text-align: right;
+  position: absolute;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.testimonialName {
+  font-weight: bolder;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.safety {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+
+  margin-top: 50px;
+}
+
+.safety2 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  line-height: 15px;
+  margin-top: 0px;
+}
+.safety1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.safetyItem {
+  font-size: 30px;
+  font-weight: lighter;
 }

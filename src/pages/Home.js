@@ -8,6 +8,8 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import CarouselItem from "../components/CarouselItem";
 import Testimonials from "../components/Testimonials";
+import Safety from "../components/Safety";
+import Grow from "../components/Grow";
 
 const Home = () => {
   return (
@@ -38,20 +40,14 @@ const Home = () => {
       <div className="region4">
         <div className="container">
           <Testimonials />
+          <Safety />
         </div>
       </div>
-      <div>
-        <Zoom right>
-          <h1>React Reveal</h1>
-        </Zoom>
+      <div className="region5">
+        <div className="container">
+          <Grow/>
+        </div>
       </div>
-      <Fade top cascade>
-        <ul className="some-class">
-          <li>First Item</li>
-          <li>Another Item</li>
-          <li>Last Item</li>
-        </ul>
-      </Fade>
     </Fragment>
   );
 };
