@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       <div className="region2">
         <div className="container">
-          <Fade bottom delay={2000}>
+          <Fade bottom delay={1000}>
             <ImpactCard />
           </Fade>
         </div>
