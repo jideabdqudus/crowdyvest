@@ -2,7 +2,6 @@ import React from "react";
 
 import { Row, Col } from "antd";
 import HeroTopImg from "../assets/hero-top.png";
-import "./components.module.css";
 import "./components.css";
 const HeroTop = () => {
   return (

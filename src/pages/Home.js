@@ -10,6 +10,7 @@ import CarouselItem from "../components/CarouselItem";
 import Testimonials from "../components/Testimonials";
 import Safety from "../components/Safety";
 import Grow from "../components/Grow";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -46,6 +47,7 @@ const Home = () => {
       <div className="region5">
         <div className="container">
           <Grow/>
+          <Footer/>
         </div>
       </div>
     </Fragment>
