@@ -5,12 +5,11 @@ import { Row, Col } from "antd";
 const randomNumber = () => Math.floor(Math.random() * 9999999999 + 10000000000);
 
 const texts = [
-  "Industry; Innovation & Infrastructure",
-  "Sustainable Cities & Communities",
-  "No Poverty",
-  "Zero Hunger",
-  "Good Health and Well-being",
-  "Partnership for the goals",
+  "Industry; Innovation & Infrastructure.",
+  "Sustainable Cities & Communities.",
+  "Good Health living and Well-being.",
+  "Reduced Inequalities for all.",
+  "Cleanwater and Sanitation.",
 ];
 
 class CarouselItem extends Component {

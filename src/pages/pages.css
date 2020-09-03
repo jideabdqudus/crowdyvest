@@ -50,7 +50,8 @@
 }
 
 .region3{
-    background-color: #fafafa;
+    background-color: #fff;
+    background-image: url("../assets/spinner_bg.svg");
     padding-bottom: 50px;
     
 }
@@ -58,4 +59,8 @@
 .region4{
     background-color: antiquewhite;
     padding-top: 30px;
+}
+
+.region1{
+    background-image: url("../assets/hero-bg.svg");
 }

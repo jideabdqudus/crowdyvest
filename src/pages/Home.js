@@ -12,14 +12,16 @@ import Testimonials from "../components/Testimonials";
 const Home = () => {
   return (
     <Fragment>
-      <div className="container">
-        <Fade top duration={3000}>
-          <HeroTop />
-          <Headline />
-        </Fade>
-        <Fade left>
-          <MidCard />
-        </Fade>
+      <div className="region1">
+        <div className="container">
+          <Fade top duration={3000}>
+            <HeroTop />
+            <Headline />
+          </Fade>
+          <Fade left>
+            <MidCard />
+          </Fade>
+        </div>
       </div>
       <div className="region2">
         <div className="container">
@@ -30,16 +32,12 @@ const Home = () => {
       </div>
       <div className="region3">
         <div className="container">
-          <Fade bottom delay={2000}>
-            <CarouselItem />
-          </Fade>
+          <CarouselItem />
         </div>
       </div>
       <div className="region4">
         <div className="container">
-          <Fade bottom delay={2000}>
-            <Testimonials/>
-          </Fade>
+          <Testimonials />
         </div>
       </div>
       <div>
