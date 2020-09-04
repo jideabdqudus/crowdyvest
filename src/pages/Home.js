@@ -16,7 +16,7 @@ import Header from "../layout/Header";
 const Home = () => {
   return (
     <Fragment>
-
+      <Header />
       <div className="region1">
         <div className="container">
           <Fade top duration={3000}>
