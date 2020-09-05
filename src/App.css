@@ -9,3 +9,7 @@ a{
 a:hover{
   color: #333
 }
+
+html {
+  --antd-wave-shadow-color: #54AB68 !important;
+ }

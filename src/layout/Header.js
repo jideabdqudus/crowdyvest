@@ -18,22 +18,34 @@ const Header = () => {
         <Menu.Item key="logo">
           <img src={Logo} alt="Logo" height="30" />
         </Menu.Item>
-        <Menu.Item key="home" style={{ color: "#54AB68" }}>
+        <Menu.Item key="home" style={myStyle}>
           Home
         </Menu.Item>
-        <Menu.Item key="save">Save</Menu.Item>
-        <Menu.Item key="sponsor">Sponsor</Menu.Item>
-        <Menu.Item key="faq">FAQs</Menu.Item>
-        <Menu.Item key="sign">Sign In</Menu.Item>
+        <Menu.Item key="save" style={myStyle}>
+          Save
+        </Menu.Item>
+        <Menu.Item key="sponsor" style={myStyle}>
+          Sponsor
+        </Menu.Item>
+        <Menu.Item key="faq" style={myStyle}>
+          FAQs
+        </Menu.Item>
+        <Menu.Item key="sign" style={{color:"54ab68", float:"right"}}>
+          Sign In
+        </Menu.Item>
         <Menu.Item
           key="create"
-          style={{ fontSize: "16px", fontWeight: "bold" }}
+          style={{ fontSize: "16px", fontWeight: "bold", float: "right" }}
         >
           Create a free account
         </Menu.Item>
       </Menu>
     </div>
   );
+};
+
+const myStyle = {
+  color: "#54ab68",
 };
 
 export default Header;
