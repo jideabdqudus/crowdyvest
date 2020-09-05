@@ -13,10 +13,9 @@ import Slide from "react-reveal/Slide";
 
 const Containers = {
   border: "1px solid red",
+  color:"yellow",
   position: "relative",
   overflow: "hidden",
-  width: "300px",
-  height: "150px",
 };
 const CarouselUI = ({ children }) => <div className={Containers}>{children}</div>;
 const Carousela = makeCarousel(CarouselUI);
@@ -28,7 +27,7 @@ const Testimonials = () => {
     <div>
       <p className="testimonials">Testimonials</p>
       <p className="testimonialsSub">Pleasant stories from people like you</p>
-      <Carousela defaultWait={1000} /*wait for 1000 milliseconds*/>
+      <Carousela defaultWait={3000} /*wait for 1000 milliseconds*/>
         <Slide right>
           <div>
             <h1>Slide 1</h1>
