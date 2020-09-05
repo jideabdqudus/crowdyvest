@@ -4,7 +4,6 @@ import HeroTop from "../components/HeroTop";
 import MidCard from "../components/MidCard";
 import Headline from "../components/Headline";
 import ImpactCard from "../components/ImpactCard";
-import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import CarouselItem from "../components/CarouselItem";
 import Testimonials from "../components/Testimonials";
