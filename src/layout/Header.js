@@ -14,11 +14,13 @@ const Header = () => {
 
   return (
     <div>
-      <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">  
-      <Menu.Item key="logo">
+      <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
+        <Menu.Item key="logo">
           <img src={Logo} alt="Logo" height="30" />
         </Menu.Item>
-        <Menu.Item key="home">Home</Menu.Item>
+        <Menu.Item key="home" style={{ color: "#54AB68" }}>
+          Home
+        </Menu.Item>
         <Menu.Item key="save">Save</Menu.Item>
         <Menu.Item key="sponsor">Sponsor</Menu.Item>
         <Menu.Item key="faq">FAQs</Menu.Item>
