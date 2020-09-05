@@ -13,9 +13,9 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div className="container" style={{backgroundColor:"#fff"}}>
       <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
-        <Menu.Item key="logo" style={navStyle}>
+        <Menu.Item key="logo">
           <img src={Logo} alt="Logo" height="30" />
         </Menu.Item>
         <Menu.Item key="home" style={myStyle}>
@@ -48,11 +48,5 @@ const myStyle = {
   color: "#54ab68",
 };
 
-const navStyle={
-  paddingRight: "15px !important",
-  paddingLeft: "15px!important",
-  marginRight: "auto!important",
-  marginLeft: "auto!important",
-}
 
 export default Header;
