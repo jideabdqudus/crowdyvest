@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <div className="container" style={{backgroundColor:"#fff"}}>
+    <div className="container" style={{ backgroundColor: "#fff" }}>
       <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
         <Menu.Item key="logo">
           <img src={Logo} alt="Logo" height="30" />
@@ -47,6 +47,5 @@ const Header = () => {
 const myStyle = {
   color: "#54ab68",
 };
-
 
 export default Header;

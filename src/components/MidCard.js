@@ -61,7 +61,7 @@ const MidCard = () => {
             />
             <br />
             <a href="#!" style={{ paddingTop: "20px" }}>
-              Start Saving <ArrowRightOutlined />
+              Sponsor Now <ArrowRightOutlined />
             </a>
           </Card>
         </Col>
@@ -87,7 +87,7 @@ const MidCard = () => {
             />
             <br />
             <a href="#!" style={{ paddingTop: "20px" }}>
-              Start Saving <ArrowRightOutlined />
+              Get Started <ArrowRightOutlined />
             </a>
           </Card>
         </Col>
@@ -113,7 +113,7 @@ const MidCard = () => {
             />
             <br />
             <a href="#!" style={{ paddingTop: "20px" }}>
-              Start Saving <ArrowRightOutlined />
+              Donate Now <ArrowRightOutlined />
             </a>
           </Card>
         </Col>
