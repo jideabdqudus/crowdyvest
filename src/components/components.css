@@ -99,13 +99,14 @@
   font-size: 50px;
   font-weight: bolder;
   margin-bottom: 0px;
-  line-height: 15px;
+  line-height: 50px;
   margin-top: 0px;
 }
 .safety1 {
   font-size: 50px;
   font-weight: bolder;
   margin-bottom: 0px;
+  line-height: 50px;
   margin-top: 50px;
 }
 
@@ -114,11 +115,10 @@
   font-weight: lighter;
 }
 
-
-@media screen and (max-width: 600px){
-  .textHidden{
+@media screen and (max-width: 600px) {
+  .textHidden {
     visibility: hidden;
-    clear:both;
+    clear: both;
     display: none;
   }
 }

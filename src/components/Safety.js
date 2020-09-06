@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Row, Col } from "antd";
+import { Row, Col, Divider } from "antd";
 import Secure from "../assets/secure.svg";
 import Phone from "../assets/phone-item.svg";
 
@@ -20,6 +20,7 @@ const Safety = () => {
           <img src={Phone} className="textHidden" alt="phone" width="500px" />
         </Col>
       </Row>
+      <Divider/>
     </div>
   );
 };

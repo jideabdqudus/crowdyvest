@@ -11,6 +11,7 @@ import Safety from "../components/Safety";
 import Grow from "../components/Grow";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
+import { Divider } from "antd";
 
 const Home = () => {
   return (
@@ -40,7 +41,7 @@ const Home = () => {
       <div className="region4">
         <div className="container">
           <Testimonials />
-          <hr style={{marginTop:"20px", border:"1px solid rgba(0,0,0,.1)"}}/>
+          <Divider />
           <Safety />
         </div>
       </div>
