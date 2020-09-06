@@ -10,17 +10,19 @@ import Slide from "react-reveal/Slide";
 // we'll use styled components for this tutorial
 // but you can use any other styling options ( like plain old css )
 
+import styled, { css } from "styled-components";
 
-const Containers = {
-  border: "1px solid red",
-  color:"yellow",
-  position: "relative",
-  overflow: "hidden",
-};
-const CarouselUI = ({ children }) => <div className={Containers}>{children}</div>;
+const CarouselUI = ({ children }) => <Container>{children}</Container>;
 const Carousela = makeCarousel(CarouselUI);
 
-
+const Container = styled.div`
+  border: 1px solid red;
+  text-align: center
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 150px;
+`;
 
 const Testimonials = () => {
   return (
@@ -30,7 +32,7 @@ const Testimonials = () => {
       <Carousela defaultWait={3000} /*wait for 1000 milliseconds*/>
         <Slide right>
           <div>
-            <h1>Slide 1</h1>
+            <h1>Slide 2</h1>
             <p>Slide Description</p>
           </div>
         </Slide>
@@ -44,7 +46,6 @@ const Testimonials = () => {
     </div>
   );
 };
-
 
 const contentStyle = {
   height: "300px",
@@ -60,30 +61,7 @@ const contentStyle = {
 export default Testimonials;
 
 // <Carousel dotPosition={dotPosition} color="green" effect="fade" autoplay>
-//         <div>
-//           <Col span={12} offset={6}>
-//             <p
-//               className="testimonialsItem"
-//               style={{ maxHeight: "400px", paddingBottom: "20px" }}
-//             >
-//               I like Crowdyvest's reliability and awesome customer support. I
-//               also like that Crowdyvest is keen on making remarkable impact in
-//               our world.
-//             </p>
-//             <Divider orientation="left" plain>
-//               <p className="testimonialName">Abiola Adigun</p>
-//             </Divider>
-//             <Row style={{ paddingBottom: "60px" }}>
-//               <Col>
-//                 <img
-//                   src={AvatarIcon}
-//                   alt="Avatar Icon"
-//                   className="testimonialsIcon"
-//                 />
-//               </Col>
-//             </Row>
-//           </Col>
-//         </div>
+
 //         <div>
 //           <Col span={12} offset={6}>
 //             <p className="testimonialsItem">
