@@ -48,7 +48,7 @@ const Home = () => {
       <div className="region5">
         <div className="container">
           <Grow />
-          <div className="foot">
+          <div style={{ marginTop: "100px", paddingTop: "100px" }}>
             <Footer />
           </div>
         </div>
