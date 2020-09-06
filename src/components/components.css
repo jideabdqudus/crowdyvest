@@ -117,8 +117,6 @@
 
 @media screen and (max-width: 600px) {
   .textHidden {
-    visibility: hidden;
-    clear: both;
-    display: none;
+    width: 300px;
   }
 }

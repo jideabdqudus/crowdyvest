@@ -14,13 +14,18 @@ const Safety = () => {
             Crowdyvest uses high-end technology to protect data and funds; as
             well as adheres to the latest standards in financial security.
           </p>
-          <img src={Secure} alt="secure" width="300px" />
+          <img
+            src={Secure}
+            alt="secure"
+            width="300px"
+            style={{ marginBottom: "50px" }}
+          />
         </Col>
         <Col xl={12}>
           <img src={Phone} className="textHidden" alt="phone" width="500px" />
         </Col>
       </Row>
-      <Divider/>
+      <Divider />
     </div>
   );
 };

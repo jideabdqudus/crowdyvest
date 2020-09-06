@@ -31,7 +31,7 @@ const Grow = () => {
               src={ios}
               alt="ios"
               width="200px"
-              style={{ marginBottom: "20px" }}
+              style={{ marginBottom: "50px" }}
             />
           </Slide>
         </Col>
