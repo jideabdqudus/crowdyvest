@@ -48,7 +48,9 @@ const Home = () => {
       <div className="region5">
         <div className="container">
           <Grow />
-          <Footer />
+          <div className="foot">
+            <Footer />
+          </div>
         </div>
       </div>
     </Fragment>

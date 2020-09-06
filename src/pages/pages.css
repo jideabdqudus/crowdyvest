@@ -49,22 +49,26 @@
   background-color: #fafafa;
 }
 
-.region3{
-    background-color: #fff;
-    background-image: url("../assets/spinner_bg.svg");
-    padding-bottom: 50px;
-    
+.region3 {
+  background-color: #fff;
+  background-image: url("../assets/spinner_bg.svg");
+  padding-bottom: 50px;
 }
 
-.region4{
-    background-color:#fafafa;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.region4 {
+  background-color: #fafafa;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.region1{
-    background-image: url("../assets/hero-bg.svg");
+.region1 {
+  background-image: url("../assets/hero-bg.svg");
 }
 
-.region5{
-    background-image: url("../assets/hero-bg.svg");}
+.region5 {
+  background-image: url("../assets/hero-bg.svg");
+}
+
+.foot{
+  padding-top: 50px !important;
+}
