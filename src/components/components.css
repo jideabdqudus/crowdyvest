@@ -72,7 +72,6 @@
 
 .testimonialsItem {
   font-size: 17px;
-  margin-top: 10px;
 }
 .testimonialsIcon {
   float: right;
@@ -113,4 +112,13 @@
 .safetyItem {
   font-size: 30px;
   font-weight: lighter;
+}
+
+
+@media screen and (max-width: 600px){
+  .textHidden{
+    visibility: hidden;
+    clear:both;
+    display: none;
+  }
 }

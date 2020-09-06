@@ -40,6 +40,7 @@ const Home = () => {
       <div className="region4">
         <div className="container">
           <Testimonials />
+          <hr style={{marginTop:"20px", border:"1px solid rgba(0,0,0,.1)"}}/>
           <Safety />
         </div>
       </div>
