@@ -1,13 +1,20 @@
 import React from "react";
-import { Row, Col } from "antd";
+import { Row, Col, Divider } from "antd";
 import "./layout.css";
+import {
+  TwitterOutlined,
+  GithubOutlined,
+  InstagramOutlined,
+  YoutubeOutlined,
+  FacebookOutlined,
+} from "@ant-design/icons";
 
 const Footer = () => {
   return (
     <div>
       <Row gutter={[48, 24]}>
         <Col span={6} xs={24} xl={6}>
-          <p  className="footerHeader">Company</p>
+          <p className="footerHeader">Company</p>
           <li
             style={{
               textDecoration: "none",
@@ -22,7 +29,7 @@ const Footer = () => {
           </li>
         </Col>
         <Col span={6} xs={24} xl={6} className="footerHeader">
-        <p  className="footerHeader">Products</p>
+          <p className="footerHeader">Products</p>
           <li
             style={{
               textDecoration: "none",
@@ -37,7 +44,7 @@ const Footer = () => {
           </li>
         </Col>
         <Col span={6} xs={24} xl={6} className="footerHeader">
-        <p  className="footerHeader">Legal</p>
+          <p className="footerHeader">Legal</p>
           <li
             style={{
               textDecoration: "none",
@@ -53,7 +60,7 @@ const Footer = () => {
           </li>
         </Col>
         <Col span={6} xs={24} xl={6} className="footerHeader">
-        <p  className="footerHeader">Contact</p>
+          <p className="footerHeader">Contact</p>
           <li
             style={{
               textDecoration: "none",
@@ -71,6 +78,25 @@ const Footer = () => {
           </li>
         </Col>
       </Row>
+      <Divider />
+      <Row>
+        <Col span={6} xs={24} xl={6} className="footerHeader">
+          <p className="footerHeader">Social</p>
+          <FacebookOutlined style={{ margin: "10px", marginLeft: "0px" }} />
+          <TwitterOutlined style={{ margin: "10px" }} />{" "}
+          <GithubOutlined style={{ margin: "10px" }} />
+          <InstagramOutlined style={{ margin: "10px" }} />
+          <YoutubeOutlined style={{ margin: "10px" }} />
+        </Col>
+      </Row>
+      <Divider />
+      This Crowdyvest website was built by{" "}
+      <a href="https://abdulqudus.com" target="__blank">
+        Jide Abdul-Qudus
+      </a>
+      <p style={{ marginTop: "20px" }}>
+        Copyright © 2020 jideabdqudus. All rights reserved.
+      </p>
     </div>
   );
 };
