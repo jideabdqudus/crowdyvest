@@ -13,7 +13,15 @@ const MidCard = () => {
   return (
     <Fragment>
       <Row gutter={16}>
-        <Col span={24} xl={6} sm={24} md={24}>
+        <Col
+          span={24}
+          xl={6}
+          sm={24}
+          md={24}
+          style={{
+            marginBottom: "20px",
+          }}
+        >
           <Card
             hoverable={false}
             cover={
@@ -39,7 +47,15 @@ const MidCard = () => {
             </a>
           </Card>
         </Col>
-        <Col span={24} xl={6} sm={24} md={24}>
+        <Col
+          span={24}
+          xl={6}
+          sm={24}
+          md={24}
+          style={{
+            marginBottom: "20px",
+          }}
+        >
           <Card
             hoverable={false}
             cover={
@@ -65,7 +81,15 @@ const MidCard = () => {
             </a>
           </Card>
         </Col>
-        <Col span={24} xl={6} sm={24} md={24}>
+        <Col
+          span={24}
+          xl={6}
+          sm={24}
+          md={24}
+          style={{
+            marginBottom: "20px",
+          }}
+        >
           <Card
             hoverable={false}
             cover={
@@ -91,7 +115,15 @@ const MidCard = () => {
             </a>
           </Card>
         </Col>
-        <Col span={24} xl={6} sm={24} md={24}>
+        <Col
+          span={24}
+          xl={6}
+          sm={24}
+          md={24}
+          style={{
+            marginBottom: "20px",
+          }}
+        >
           <Card
             hoverable={false}
             cover={

@@ -51,8 +51,7 @@ const Testimonials = () => {
               <p className="testimonialsItem">
                 It’s refreshing to come across companies that put words into
                 action. Crowdyvest is all about action via excellent investor
-                experience through quality service... They’ve got your back even
-                if hiccups occur & that’s a company I can confidently recommend.
+                experience through quality service.
               </p>
               <Divider orientation="left" plain>
                 <p className="testimonialName">Ademola Taiwo</p>
