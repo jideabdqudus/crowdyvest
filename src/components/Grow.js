@@ -31,7 +31,7 @@ const Grow = () => {
               src={ios}
               alt="ios"
               width="200px"
-              style={{ marginBottom: "50px" }}
+              style={{ marginBottom: "20px" }}
             />
           </Slide>
         </Col>
@@ -40,6 +40,7 @@ const Grow = () => {
             <img
               src={AnimatedPh}
               alt="phone"
+              style={{ marginTop: "30px" }}
               width="500px"
               className="textHidden"
             />
